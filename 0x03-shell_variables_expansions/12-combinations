@@ -1,0 +1,2 @@
+#!/bin/bash
+echo {a..z} |tr [[:alpha:]] "*aa" | grep -v oo |head -n 64
